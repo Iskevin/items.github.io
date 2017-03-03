@@ -1,0 +1,265 @@
+/*JION US 样式*/
+.topImgs{
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+.topImgs>img{
+    width: 100%;
+    height: 100%;
+}
+
+/*文本层次*/
+.j-txt-gradation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}
+
+.j-txt-contents-wrapper{
+    width: 960px;
+    margin: 160px auto 0;
+    text-align: center;
+    color: #fff;
+}
+.j-txt-contents-wrapper>h3{
+    font-size: 76px;
+    color: #fefffe;
+    line-height: 50px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    margin-bottom: 60px;
+}
+.j-txt-contents-wrapper>p{
+    color: #fefffe;
+    line-height: 40px;
+    font-size: 24px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+}
+
+/*邮箱*/
+.j-email{
+    width:960px;
+    margin: 24px auto 0;
+    text-align: right;
+}
+.j-email>img{
+    float: right;
+}
+.j-email>p{
+    float: right;
+    font-size: 20px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color: #f39800;
+    margin-left: 12px;
+}
+
+/*nav*/
+/*内容容器*/
+.department-wrapper{
+    width:100%;
+    background-color: #eee;
+}
+/*导航栏容器*/
+.j-navBar{
+    width: 100%;
+    background-color: #fff;
+}
+/*导航栏*/
+.navbar-ul{
+    width: 960px;
+    height: 70px;
+    margin: 0 auto;
+    /*background-color: red;*/
+}
+/*分支*/
+.j{
+    /*width: 20%;*/
+    height: 70px;
+    line-height: 70px;
+    float: left;
+    position: relative;
+}
+.j>a{
+    font-size: 16px;
+    color: #000;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+}
+.j:nth-of-type(1) a{
+    color: #20ab35;
+}
+#j-s{
+    height: 4px;
+}
+.j-s{
+    position: absolute;
+    bottom: 0;
+    /*height: 0px;*/
+    display: block;
+    width: 100%;
+    background-color: #20ab35;
+}
+
+
+.u{
+    width: 180px;
+    height: 100%;
+    float: left;
+}
+
+/*职位信息*/
+.branch-list-wrapper{
+    width:960px;
+    margin: 0 auto;
+    /*background-color: #eee;*/
+}
+/*提示*/
+.promptInfos{
+    width: 100%;
+    /*height: 50px;*/
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color: #999;
+    border-bottom: 1px dashed #999;
+}
+/*<!-- 职员详细介绍 -->*/
+.staff-detailInfos{
+    display: none;
+    width: 100%;
+}
+/*模块*/
+.staff-detailInfos>li{
+    width: 50%;
+    float: left;
+    padding: 0 14px 14px;
+    box-sizing: border-box;
+
+}
+/*一级标题*/
+.staff-detailInfos>li>h3{
+    font-size: 24px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color: #000;
+    padding: 24px 0 0;
+    margin-bottom: 28px;
+}
+/*二级标题*/
+.staff-detailInfos>li>h4{
+    font-size: 18px;
+    color: #000;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    margin:14px 0;
+}
+/*文本*/
+.prompt-intro{
+    padding-left: 1.4em;
+    box-sizing: border-box;
+}
+.prompt-intro>li{
+    color: #999;
+    font-size: 14px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    list-style:disc;
+    text-indent: -0.2em;
+    line-height: 28px;
+}
+/*<!-- Welcome to join us -->*/
+.wju{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    font-size: 24px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color: #f39800;
+    text-align: center;
+}
+
+@media screen and (max-width:960px){
+    .j-txt-gradation{width: 100%;}
+    .j-txt-contents-wrapper{width: 100%;}
+    .j-email{width: 100%;}
+
+    .topImgs{height: auto;}
+    .j-txt-gradation>div{
+        width: 100%;
+    }
+
+    .j-txt-contents-wrapper {
+        margin: 46px auto 0;
+    }
+    .j-txt-contents-wrapper>h3{
+        font-size: 46px;
+        margin-bottom: 20px;
+
+        line-height: normal;
+    }
+    .j-txt-contents-wrapper>p{font-size: 18px;line-height: normal;
+    }
+
+    /*邮箱*/
+    .j-email{margin-top: 10px;padding-right: 10px; box-sizing: border-box;}
+    .j-email>img {
+        float: right;
+        width: 38px;
+    }
+    .j-email>p{font-size: 18px;}
+
+}
+@media screen and (max-width:770px){
+    /*banner*/
+    .topImgs{height: auto;}
+    .j-txt-gradation>div{
+        width: 100%;
+    }
+
+    .j-txt-contents-wrapper {
+        margin: 42px auto 0;
+    }
+    .j-txt-contents-wrapper>h3{
+        font-size: 22px;
+        margin-bottom: 5px;
+        line-height: normal;
+    }
+    .j-txt-contents-wrapper>p{font-size: 12px;line-height: normal;
+    }
+
+    /*邮箱*/
+    .j-email{margin-top: 3px;}
+    .j-email>img {
+        float: right;
+        width: 24px;
+    }
+    .j-email>p{font-size: 12px;}
+
+    /*ul*/
+    .navbar-ul{
+        width: 90%;
+    }
+    /*li*/
+    .j{
+        width: 20%;
+        text-align: center;
+    }
+    .u{
+        display: none;
+    }
+
+    .branch-list-wrapper{
+        width: 90%;
+        /*line-height: 1.5em;*/
+    }
+    .promptInfos{
+        line-height: 2em;
+    }
+
+    .staff-detailInfos>li{
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+    }
+    .staff-detailInfos>li>h3{font-size: 20px;padding-top: 16px;margin-bottom: 8px;}
+    .staff-detailInfos>li>h4{margin: 0 auto 10px;font-size: 16px;}
+}

@@ -1,0 +1,159 @@
+
+.gg-container{
+    width: 100%;
+    background:url("../images/grass_bg1_04.png") repeat;
+}
+/*图标*/
+.gg-Imgs-wrapper{position: rerelative
+}
+.gg-Imgs-wrapper,.gg-Imgs-wrapper>img{width: 100%;
+}
+.gg-Imgs-wrapper>img{float: left;}
+/*infos*/
+.gg-Imgs-infos{
+    position:absolute;top: 30%;left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 960px;
+    text-align: center;
+    color: #fefffe;
+}
+.gg-Imgs-infos>h3{font-size: 54px;margin-bottom: 60px;}
+.gg-Imgs-infos>p{font-size: 34px;}
+
+
+/*标题*/
+.gg-title{
+    width:960px;
+    text-align: center;
+    color: #2b953c;
+    font-size: 30px;
+    margin: 28px auto 16px;
+    /*border-bottom: 1px solid #2b953c;*/
+}
+.gg-title>span{display:block;width:112px;height: 4px;margin: 6px auto 0;background-color:#f39800; }
+
+/*内容 center bag*/
+.gg-center-wrapper{
+    width: 100%;
+    background:url("../images/grass_bg2_04.png") repeat;
+    border-top: 1px solid #2b953c;
+    border-bottom: 1px solid #2b953c;
+}
+.gg-c-wrap{width: 960px;margin: 0 auto;}
+/*经济效益*/
+.ggcw-infos31{width: 100%;padding:32px 0 40px;border-bottom: 1px dashed #ababab;}
+.ggcw-infos31>div{float: left;}
+.ggw-31-left{width:60%; }
+.ggw-31-left>h4{font-size: 20px;color: #2b953c;margin-bottom:36px;}
+.ggw-31-left>p{font-size: 14px;color: #333;
+    text-align: justify;text-indent: 2em;
+}
+.ggw-31-right{width: 40%;margin-top: 12px;overflow: hidden;}
+.ggw-31-right>img{float: right;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+}
+/*营养成分*/
+.ggcw-infos32{width: 100%;border-bottom: 1px dashed #ababab;padding: 32px 0 20px;}
+.ggcw-infos32>h4{font-size: 20px;color: #2b953c;margin-bottom:60px;}
+.ggcw-infos32>img{float: left;}
+/*环保*/
+.ggcw-infos33{width: 100%;margin-bottom: 40px;}
+.ggcw-infos33>h4{font-size: 20px;color: #2b953c;margin: 18px 0 32px}
+.ggcw-infos-33-ul{
+    position: relative;
+}
+.ggcw-infos-33-ul>li{float: left;width:280px;height:390px;overflow: hidden;
+    -webkit-box-shadow: 0 0 3px #dfdfdf;
+    -moz-box-shadow: 0 0 3px #dfdfdf;
+    -ms-box-shadow: 0 0 3px #dfdfdf;
+    -o-box-shadow: 0 0 3px #dfdfdf;
+    box-shadow: 0 0 3px #dfdfdf;
+    background-color: #fefffe;
+}
+.ggcw-infos-33-ul>li:nth-of-type(1){float: left;}
+.ggcw-infos-33-ul>li:nth-of-type(2){float: left;
+    position: absolute;left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+.ggcw-infos-33-ul>li:nth-of-type(3){float: right;}
+.ggcw-infos-33-ul>li>img{float: left;}
+.txt33{color: #000;float: left;
+    margin: 16px 16px 20px;
+}
+.txt33>h5{font-size: 16px;margin-bottom: 12px;}
+.txt33>p{font-size: 12px;text-align:justify;
+}
+
+
+@media screen and (max-width:960px) {
+
+}
+@media screen and (min-width:770px) and (max-width:960px) {
+    .gg-Imgs-infos{top: 20%;width: 100%;font-size: 28px;
+        }
+    .gg-Imgs-infos>h3{font-size: 26px;margin-bottom: 20px;width: 100%;}
+    .gg-Imgs-infos>p{font-size: 20px;width: 100%;}
+    /*标题*/
+    .gg-title{width: 100%;font-size: 24px;
+    margin: 18px auto 12px;}
+    .gg-title>span{width: 21%;height:2px;}
+
+    .ggcw-infos31{float: none;padding-left: 15px;padding-right: 15px;box-sizing: border-box;
+    }
+    .gg-c-wrap{width: 100%;}
+    .gg-c-wrap>div{float: none;width: 100%;}
+    .ggw-31-left{width: 100%;float: none;}
+    .ggw-31-right{float: none;width: 100%;}
+    .ggw-31-right{float: none;display: block;margin: 10px auto 0;}
+    .ggw-31-right>img{float: left;width: 100%;height: 240px;}
+    /*营养成分*/
+    .ggcw-infos32{padding-left: 15px;padding-right: 15px;box-sizing: border-box;}
+    .ggcw-infos32>h4{width: 100%;margin: 0 auto 28px;}
+    .ggcw-infos32>img{width: 100%;}
+}
+@media screen and (max-width:770px) {
+    /*banner*/
+    .gg-Imgs-infos{top: 10%;width: 100%;}
+    .gg-Imgs-infos>h3{font-size: 24px;margin: 0;width: 100%;}
+    .gg-Imgs-infos>p{font-size: 18px;width: 100%;}
+    /*标题*/
+    .gg-title{width: 100%;font-size: 22px;
+    margin: 16px auto 10px;}
+    .gg-title>span{width: 19%;height:2px;}
+
+    .ggcw-infos31{float: none;padding-left: 15px;padding-right: 15px;box-sizing: border-box;
+    }
+    .gg-c-wrap{width: 100%;}
+    .gg-c-wrap>div{float: none;width: 100%;}
+    .ggw-31-left{width: 100%;float: none;}
+    .ggw-31-right{float: none;width: 100%;}
+    .ggw-31-right{float: none;display: block;margin: 10px auto 0;}
+    .ggw-31-right{float: left;width: 100%;}
+
+    /*营养成分*/
+    .ggcw-infos32{padding-left: 15px;padding-right: 15px;box-sizing: border-box;}
+    .ggcw-infos32>h4{width: 100%;margin: 0 auto 28px;}
+    .ggcw-infos32>img{width: 100%;}
+
+    /*环保*/
+    .ggcw-infos33{padding-left: 15px;padding-right: 15px;box-sizing: border-box;}
+    .ggcw-infos-33-ul>li:nth-of-type(1){float: none;margin: 0 auto;
+    }
+    .ggcw-infos-33-ul>li:nth-of-type(2){position: relative;margin: 10px auto;
+    }
+    .ggcw-infos-33-ul>li:nth-of-type(3){float: none;margin: 0 auto;
+    }
+}

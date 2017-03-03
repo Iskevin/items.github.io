@@ -1,0 +1,217 @@
+/*The GrassTeam 样式*/
+.tgt-container{
+
+}
+
+.topImgs{
+    width: 100%;
+    height: 480px;
+    position: relative;
+}
+.topImgs>img{
+    width: 100%;
+    height: 100%;
+}
+/*文本层次*/
+.txt-gradation{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+}
+
+.txt-contents-wrapper{
+    width: 960px;
+    margin: 160px auto 0;
+    text-align: center;
+    color: #fff;
+}
+.txt-contents-wrapper>h3{
+    font-size: 44px;
+    color: #fefffe;
+    line-height: 50px;
+    font-family:"微软雅黑";
+}
+.txt-contents-wrapper>h3:nth-of-type(2){
+    margin-bottom: 60px;
+}
+.txt-contents-wrapper>p{
+    color: #fefffe;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+
+/*团队介绍*/
+/*容器*/
+.team-wrapper{
+    width: 100%;
+    background-color: #fefffe;
+
+}
+
+.team-ul{
+    width: 960px;
+    margin: 32px auto 0;
+}
+.team-li{
+    /*hover 之后*/
+    /*padding-bottom: 18px;
+    border-bottom: 1px dashed #999;*/
+}
+.team-li:hover{
+
+}
+
+
+/*包*/
+.team-bag{
+    width: 100%;
+    height: 100%;
+    /*之后*/
+}
+
+/*.team-hover{
+    box-shadow: 0 0 10px #999;
+}*/
+.team-bag>div{
+    padding: 10px;
+    float: left;
+    box-sizing: border-box;
+}
+/*左图*/
+.left-img{
+    /*width: 30%;*/
+    /*float: left;*/
+}
+.left-img>img{
+    float: left;
+}
+.right-details{
+    width: 54%;
+    margin: 0 0 0 20px;
+    text-align: justify;
+    text-indent: 2em;
+    /*float: left;*/
+}
+
+.right-details>h3{
+    font-size: 24px;
+    color: #000;
+    font-family:"微软雅黑";
+    margin: 18px auto 20px;
+}
+.right-details>p{
+    font-size: 18px;
+    color: #333;
+    line-height: 24px;
+}
+
+.company-culture{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    color: #f39800;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 38px 0;
+    margin-top: 60px;
+    border-top: 1px dashed #999;
+}
+@media screen and (min-width:450px;) and (max-width:770px) {
+    .left-img>img{
+        /*height: 330px;*/
+    }
+
+}
+@media screen and (max-width:770px){
+    .topImgs {height: 198px;
+    }
+    .txt-contents-wrapper{margin-top: 48px;width: 98%;}
+    .txt-contents-wrapper>h3{font-size: 18px;line-height: normal;}
+    .txt-contents-wrapper>h3:nth-of-type(2){margin-bottom: 12px;}
+    .txt-contents-wrapper>p{font-size: 12px;line-height: normal;}
+
+    .team-wrapper{
+        width: 100%;
+    }
+
+    .team-ul{
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .team-li{
+        width: 100%;
+        padding:10px;
+        box-sizing: border-box;
+    }
+
+    .left-img{
+        width: 100%;
+    }
+    .left-img>img{
+        width: 100%;
+        /*height: 330px;*/
+        float: inherit;
+        position: relative;
+        left: 50%;
+        -webkit-transform:translateX(-50%);
+        -ms-transform:translateX(-50%);
+        -o-transform:translateX(-50%);
+        transform:translateX(-50%);
+    }
+    .right-details{
+        width: 100%;
+        margin: 0;
+    }
+    .right-details>h3{
+        font-size: 20px;
+        margin: 0px auto 12px;
+    }
+    .right-details>p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .company-culture{
+        width: 100%;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 24px 0;
+        margin-top: 12px;
+    }
+
+}
+@media screen and (min-width:770px) and (max-width:960px){
+    .topImgs {height: 400px;
+    }
+
+    .txt-contents-wrapper{
+        margin-top: 110px;
+    }
+
+    .txt-contents-wrapper{
+        width: 100%;
+    }
+    .txt-contents-wrapper>h3{
+        font-size: 40px;
+    }
+    .txt-contents-wrapper>h3:nth-of-type(2) {
+        margin-bottom: 30px;
+    }
+    .txt-contents-wrapper>p{
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+
+}
+
+
+@media screen and (max-width:960px) {
+
+
+}

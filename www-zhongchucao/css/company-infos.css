@@ -1,0 +1,64 @@
+.ci-container{width: 100%;}
+.ci-banner{width: 100%;}
+.ci-banner>img{width: 100%;float: left;}
+.ci-Imgs-infos{width: 100%;color:#fff;
+    position: absolute;
+    left: 50%;top: 30%;text-align: center;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.ci-Imgs-infos>h3{font-size: 54px;margin-bottom: 20px;}
+.ci-Imgs-infos>p{font-size: 32px;}
+
+.ci-wrapper{width: 960px;margin: 0 auto;background-color: }
+.ci-wrapper>li>h4{color: #000;font-size: 36px;text-align: center;margin-bottom: 30px;}
+.ci-wrapper>li>p{color: #666;font-size: 16px;text-align: center;}
+
+.padding-tb-li-title{padding: 60px 0 40px;}
+.padding-tb-li-txt{padding: 22px 0 20px;}
+
+@media screen and (max-width:960px) {
+
+
+    .ci-wrapper{width: 100%;padding: 0 20px 0;box-sizing: border-box;}
+    .padding-tb-li-title>p{text-align: justify;}
+    .ci-wrapper>li>p{text-align: justify;text-indent: 2em;}
+    .padding-tb-li-imgs>img{width: 100%;}
+}
+@media screen and (min-width:770px) and (max-width:960px) {
+    .ci-Imgs-infos{width: 100%;color:#fff;
+        position: absolute;
+        left: 50%;top: 20%;text-align: center;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .ci-Imgs-infos>h3{font-size: 32px;margin-bottom: 20px;}
+    .ci-Imgs-infos>p{font-size: 28px;}
+}
+
+@media screen and (max-width:770px){
+    /*我们简介*/
+    .padding-tb-li-title{padding: 30px 0 20px;}
+    .ci-wrapper>li>h4{font-size: 24px;margin-bottom: 12px;}
+
+    .ci-Imgs-infos{width: 100%;color:#fff;
+        position: absolute;
+        left: 50%;top: 10%;text-align: center;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .ci-Imgs-infos>h3{font-size: 22px;margin-bottom: 20px;}
+    .ci-Imgs-infos>p{font-size: 18px;}
+}
+@media screen and (min-width:450px) and (max-width:770px){
+    .ci-Imgs-infos{top: 20%;}
+}

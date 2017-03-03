@@ -1,0 +1,162 @@
+
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,input,table,tbody,p,th,td,em{-webkit-text-size-adjust:none;margin: 0;padding: 0;border: none;-webkit-tap-highlight-color:rgba(0,0,0,0);font-size: 12px;font-family:"Microsoft Yahei","微软雅黑",Tahoma,Arial,Helvetica,STHeiti;}
+html,body{ height:100%;}
+img,input,button,a,select,textarea{ margin: 0; padding: 0; resize:none; border:none; outline:none; }
+ol,ul { list-style:none; }
+h1,h2,h3,h4,h5,h6,p,em,i,b,em{ font-size:100%; word-wrap:break-word; font-weight: normal; font-style: normal; }
+a:active, a:focus{ outline:none; }
+button::-moz-focus-inner,input::-moz-focus-inner{ padding:0; border:0; }
+*html{ background-image:url(about:blank); background-attachment:fixed; } /* 修正IE6振动bug */
+
+body{overflow: hidden;}
+/*HEAD  文字颜色  特殊标记*/
+/*head*/
+#cu h3 a{
+    color: #23ac38;
+}
+
+/*边框阴影*/
+.bs{
+    position: absolute;
+    bottom: -6px;
+    width: 100%;
+    height: 6px;
+    z-index: -1;
+    background: -webkit-linear-gradient(top,#e9f2ea,rgba(0,0,0,0));
+    background: -ms-linear-gradient(top,#e9f2ea,rgba(0,0,0,0));
+    background: -o-linear-gradient(top,#e9f2ea,rgba(0,0,0,0));
+    background: linear-gradient(top,#e9f2ea,rgba(0,0,0,0));
+}
+/*公共样式*/
+/*HOME*/
+/*清除浮动*/
+.clear:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/*下滑虚线。*/
+.dotted-line{
+    content: "";
+    display: block;
+    border-bottom: 1px dashed gray;
+}
+/*线条 变化*/
+/*left*/
+.border-left-animated{
+    content: "";
+    display: block;
+    width: 39%;
+    height: 0;
+    border-bottom: 2px solid #dfdfdf;
+    margin-top: 8px;
+}
+@media screen and (max-width:770px) {
+    .border-left-animated{margin:8px auto 0;}
+}
+.border-center-animated{
+    content: "";
+    display: block;
+    width: 45%;
+    height: 0;
+    margin:0 auto;
+    border-bottom: 2px solid #dfdfdf;
+    margin-top: 8px;
+}
+/*.slide{
+    padding:0;
+}*/
+
+/*字体类型*/
+.@font-face {
+
+}
+.font-family{}
+
+
+
+/*JION US*/
+/*边框*/
+/*.on{
+    border-bottom: 4px solid #20ab35;
+}*/
+.left-border{
+    border-right: 0.5px dashed #999;
+}
+/*.right-border{
+    border-left: 0.5px dashed #999;
+}*/
+.bottom-border{
+    border-bottom: 1px dashed #999;
+}
+
+
+/*团队合作*/
+.team-li:hover .team-bag{
+    -webkit-transition:all 0.5s ease-out 0s;
+    -moz-transition:all 0.5s ease-out 0s;
+    -ms-transition:all 0.5s ease-out 0s;
+    -o-transition:all 0.5s ease-out 0s;
+    transition:all 0.5s ease-out 0s;
+    -webkit-box-shadow: 0px 0px 10px #999;
+    -moz-box-shadow: 0px 0px 10px #999;
+    -ms-box-shadow: 0px 0px 10px #999;
+    -o-box-shadow: 0px 0px 10px #999;
+    box-shadow: 0px 0px 10px #999;
+}
+.team-li:hover{
+    -webkit-transition:all 0.5s ease-out 0s;
+    -moz-transition:all 0.5s ease-out 0s;
+    -ms-transition:all 0.5s ease-out 0s;
+    -o-transition:all 0.5s ease-out 0s;
+    transition:all 0.5s ease-out 0s;
+    -webkit-padding-bottom:16px;
+    -moz-padding-bottom:16px;
+    -ms-padding-bottom:16px;
+    -o-padding-bottom:16px;
+    padding-bottom:16px;
+    -webkit-margin-bottom:16px;
+    -moz-margin-bottom:16px;
+    -ms-margin-bottom:16px;
+    -o-margin-bottom:16px;
+    margin-bottom:16px;
+}
+/*产品服务*/
+/*牧草 畜牧*/
+/*滑过样式*/
+.top:hover{
+    margin-top: -10px;
+    -webkit-transition:all 0.5s ease-out 0s;
+    -moz-transition:all 0.5s ease-out 0s;
+    -ms-transition:all 0.5s ease-out 0s;
+    -o-transition:all 0.5s ease-out 0s;
+    transition:all 0.5s ease-out 0s;
+    -webkit-box-shadow: 3px 3px 10px 5px #c7c7c7;
+    -moz-box-shadow: 3px 3px 10px 5px #c7c7c7;
+    -ms-box-shadow: 3px 3px 10px 5px #c7c7c7;
+    -o-box-shadow: 3px 3px 10px 5px #c7c7c7;
+    box-shadow: 3px 3px 10px 5px #c7c7c7;
+}
+
+/*产品服务*/
+.scale:hover{
+    display: block;
+
+    -webkit-transform: scale(1.2em);
+    -moz-transform: scale(1.2em);
+    -ms-transform: scale(1.2em);
+    -o-transform: scale(1.2em);
+    transform: scale(1.2em);
+    -webkit-transition:all 0.5s ease-out 0s;
+    -moz-transition:all 0.5s ease-out 0s;
+    -ms-transition:all 0.5s ease-out 0s;
+    -o-transition:all 0.5s ease-out 0s;
+    transition:all 0.5s ease-out 0s;
+}
+
+
+/*遮影*/
+.yy{position:fixed;top:0;width:100%;height:100%;background-color: #fff;z-index: 100000;}
+.yy>p{position:relative;background-color: blue;height:2px;width:0;
+}

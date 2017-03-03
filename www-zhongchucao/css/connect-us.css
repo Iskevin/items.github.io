@@ -1,0 +1,259 @@
+
+/*CONNECT US 样式*/
+/*地图*/
+/*body, html,#allmap {width: 100%;height: 100%;overflow: hidden;margin:0;font-family:"微软雅黑";}*/
+
+
+/*总样式*/
+.cu-container{
+    width: 100%;
+    position: relative;
+}
+.cu-wrapper{
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+/*.cu-wrapper>img{
+    width: 100%;
+    height: 100%;
+    float: left;
+}*/
+#l-map{height:100%;width:100%;}
+/*#r-result{width:100%;
+width: 38%;
+position: absolute;
+top: 50%;
+left: 50%;
+-webkit-transform:translate(-50%,-50%);}*/
+
+.message-s{opacity: 0.7;background-color: #f5ebdb;}
+.message-wrapper{
+    width: 240px;
+    height: 330px;
+    position: absolute;
+    top: 126px;
+    left: 120px;
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -0-border-radius: 2px;
+    border-radius: 2px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+.message-infos{
+    /*display: none;*/
+    width: 220px;
+    /*height: 434px;*/
+    background-color: red;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -0-border-radius: 5px;
+    border-radius: 5px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    padding:22px 16px 36px;
+    box-sizing: border-box;
+
+}
+
+.message-infos>h3{
+    font-size: 20px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color:#007012;
+    margin-bottom: 28px;
+}
+.message-infos>h3>span{display: block;background-color: #f39800;width: 78px;height:2px;
+    margin-top: 2px;}
+.prompt-txt{
+    width: 100%;
+    font-size: 14px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color: #333;
+    text-align: justify;
+    line-height: 1.5em;
+    margin-bottom: 32px;
+}
+.message-infos>h4{font-size: 14px;color: #f39800;text-align: center;
+}
+.message-infos>a{font-size: 12px;color: #333;text-align: center;display: block;
+}
+.message-infos>a:hover{text-decoration: underline;color: #007012;
+}
+/*个人信息*/
+.personal-info1{
+    margin-bottom: 28px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+}
+.personal-info1>label{
+    display: block;
+    float: left;
+    width: 35%;
+    font-size: 16px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color: #000;
+}
+.personal-info1>input{
+    border: 0;
+    width: 65%;
+    font-size: 16px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    border-bottom: 1px solid #000;
+}
+.personal-info2>label{
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    width: 40%;
+    color: #000;
+}
+.personal-info2>input{
+    border: 0;
+    font-size: 16px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    border-bottom: 1px solid #000;
+}
+.personal-info2>input:nth-of-type(1){
+    width: 60%;
+    margin-bottom: 28px;
+}
+.personal-info2>input:nth-of-type(2){
+    width: 100%;
+}
+
+/*发送*/
+.sendInfos{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color: #f39800;
+    width: 64px;
+    height: 30px;
+    line-height: 30px;
+    margin: 14px auto;
+    -webkit-border-radius: 5px;
+    border: 1px solid #f39800;
+}
+
+
+
+/*压缩之后*/
+.message-infos-y{
+    display: none;
+    width: 288px;
+    background-color: red;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    transform:translateX(-50%);
+    background-color: #fff;
+    opacity: 0.9;
+    -webkit-border-radius: 5px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    padding:18px 11px 0;
+    box-sizing: border-box;
+
+}
+
+.message-infos-y>h3{
+    font-size: 20px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color:#007012;
+    margin-bottom: 14px;
+}
+.prompt-txt-y{
+    width: 100%;
+    font-size: 14px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color: #f39800;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+
+/*个人信息*/
+.personal-info1-y{
+    margin-bottom: 28px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+}
+.personal-info1-y>label{
+    display: block;
+    float: left;
+    width: 35%;
+    font-size: 16px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color: #000;
+}
+.personal-info1-y>input{
+    border: 0;
+    width: 65%;
+    font-size: 16px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    border-bottom: 1px solid #000;
+}
+.personal-info2-y>label{
+    display: block;
+    float: left;
+    font-size: 16px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    width: 40%;
+    color: #000;
+}
+.personal-info2-y>input{
+    border: 0;
+    font-size: 16px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    border-bottom: 1px solid #000;
+}
+.personal-info2-y>input:nth-of-type(1){
+    width: 60%;
+    margin-bottom: 28px;
+}
+.personal-info2-y>input:nth-of-type(2){
+    width: 100%;
+}
+
+/*发送*/
+.sendInfos-y{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-family:"Microsoft YaHei",SimSun,SimHei;
+    color: #f39800;
+    width: 64px;
+    height: 30px;
+    line-height: 30px;
+    margin: 14px auto;
+    -webkit-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #f39800;
+}
+@media screen and (max-width:770px) {
+    .message-wrapper{
+        width: 344px;
+        height: 229px;
+        /*display: none;*/
+        position: absolute;
+        top: 302px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+    }
+    .message-infos{width: 324px;padding: 18px 16px 20px;}
+    .message-infos>h3{margin-bottom: 10px;}
+    .prompt-txt{margin-bottom: 12px;}
+    .message-infos-y{
+        /*display: block;*/
+    }
+}

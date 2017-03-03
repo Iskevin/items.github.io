@@ -1,0 +1,313 @@
+/*total 生产服务*/
+html,body{font-family:"Microsoft YaHei",SimSun,SimHei;}
+
+
+.ps-container{
+    width: 100%;
+}
+
+.ps-wrapper{width: 100%;
+}
+/*产品生态*/
+.prodect-zoology{width: 100%;margin-top: 80px;
+    position: relative;
+    border-bottom: 1px solid #999;
+    overflow: hidden;
+}
+/*修饰*/
+.embellish-top-right{width: 334px;height: 263px;
+    position: absolute;top: 0;right: 0;
+}
+.embellish-bottom-left{width: 334px;height: 263px;
+    position: absolute;bottom: 0;left: 0;
+}
+/*top right imgs*/
+.tr1{
+    position: absolute;right: 178px;top: -98px;
+}
+.tr2{
+    position: absolute;right: 92px;top:-97px;
+}
+.tr3{
+    position: absolute;right: -101px;top: -201px;
+}
+.tr4{
+    position: absolute;right: -181px;top: -263px;
+}
+.tr5{
+    position: absolute;right: -137px;top: -164px;
+}
+/*bottom top imgs*/
+.bl1{
+    position: absolute;left: -99px;bottom: -146px;
+}
+.bl2{
+    position: absolute;left: -165px;bottom: -247px;
+}
+.bl3{
+    position: absolute;left: -130px;bottom: -210px;
+}
+.bl4{
+    position: absolute;left: 85px;bottom: -92px;
+}
+.bl5{
+    position: absolute;left: 203px;bottom: -69px;
+}
+/*文本*/
+.pz-contents{width: 960px;height: 630px;
+    /*background-color: lightgray;*/
+    margin: 0 auto;
+    padding-top: 36px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/*.scaleIn{
+    -webkit-animation:scaleIn
+}
+.scaleOut{
+
+}*/
+/* 动画 */
+@-webkit-keyframes scaleIn {
+	/* 默认 */
+	0% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+	}
+	100% {
+		-webkit-transform: scale(1.4);
+		-ms-transform: scale(1.4);
+		-o-transform: scale(1.4);
+		transform: scale(1.4);
+	}
+}
+@keyframes scaleIn {
+	0% {
+		-webkit-transform: scale(1.4);
+		-ms-transform: scale(1.4);
+		-o-transform: scale(1.4);
+		transform: scale(1.4);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		-o-transform: scale(1);
+		transform: scale(1);
+	}
+}
+@-webkit-keyframes scaleOut {
+	/* 默认 */
+	0% {
+		-webkit-transform: scale(1.4);
+		-ms-transform: scale(1.4);
+		-o-transform: scale(1.4);
+		transform: scale(1.4);
+	}
+	100% {
+		-webkit-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+}
+@keyframes scaleOut {
+	0% {
+		-webkit-transform: scale(1.4);
+		-ms-transform: scale(1.4);
+		-o-transform: scale(1.4);
+		transform: scale(1.4);
+	}
+	100% {
+		-webkit-transform: scale(1.2);
+		-ms-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+}
+
+
+
+/*标题*/
+.pz-title{margin-bottom: 20px;}
+.pz-title>h3{font-size: 20px;color: #333;float: left;margin-left: 4px;line-height: 28px;
+}
+.pz-title>img{float: left;
+}
+/*内容*/
+.pz-contents>p{font-size: 14px;color: #666;line-height: 18px;margin-left: 18px;
+}
+
+/*生态圈*/
+.zoology-circle{width: 682px;height: 528px;
+    /*background: red;*/
+    position: absolute;bottom: 0;left: 50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+#canvas{display: none;
+    position: absolute;top: 50%;
+    left: 50%;
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+#canvas2{display: none;
+    position: absolute;top: 50%;
+    left: 50%;
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+/*图*/
+.zoology-circle>a{display: inline-block;
+}
+/*.zoology-circle>img{
+    position: absolute;
+    top: 66px;
+}*/
+/*生态元素*/
+.zoology-mucao{
+    position: absolute;top: 0;left: 50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.zoology-mucao>img:nth-of-type(1){float: left;
+    /*-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);*/
+}
+.zoology-mucao>img:nth-of-type(2){
+    position: absolute;top: 0;left: 0;
+}
+
+.zoology-xumu{
+    position: absolute;top: 50%;left: 0;
+    -webkit-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+.zoology-xumu>img:nth-of-type(1){float: left;
+    /*-webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);*/
+}
+.zoology-xumu>img:nth-of-type(2){
+    position: absolute;top: 0;left: 0;
+}
+.zoology-shengxian{
+    position: absolute;top: 50%;right: 0;
+    -webkit-transform:translateY(-50%);
+    -ms-transform:translateY(-50%);
+    -o-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+.zoology-shengxian>img:nth-of-type(1){float: left;
+}
+.zoology-shengxian>img:nth-of-type(2){
+    position: absolute;top: 0;left: 0;
+}
+.zoology-shequ{
+    position: absolute;bottom: 0;left: 50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.zoology-shequ>img:nth-of-type(1){float: left;
+}
+.zoology-shequ>img:nth-of-type(2){
+    position: absolute;top: 0;left: 0;
+}
+/*滑过*/
+.zoology-imgs-scale:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transtion:all 1s ease-in 0s;
+    transtion:all 1s ease-in 0s;
+}
+
+/*center 文字*/
+.zoology-infos{width: 56%;text-align: center;display:none;
+    position: absolute;top: 50%;left: 50%;
+    -webkit-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+    -o-transform:translate(-50%,-50%);
+    transform:translate(-50%,-50%);
+}
+.zoology-infos>h3{color: #24ad38;font-size: 22px;margin-bottom: 30px;
+}
+.zoology-infos>h3>span{background-color: #ff3a2f;height: 2px;display: block;width: 47px;margin: 2px auto 0;
+}
+.zoology-infos>p{color: #000;font-size: 16px;}
+/*修饰*/
+/*.ps-embellish{}*/
+/*服务流程*/
+.flow-serve{
+    padding-top: 26px;
+}
+/*标题*/
+.fs-wrap{margin:0 auto;width: 960px;
+}
+.pz-title2{margin-bottom: 12px;
+}
+.pz-title2>h3{font-size: 20px;color: #333;float: left;margin-left: 4px;line-height: 28px;
+}
+.pz-title2>img{float: left;
+}
+#fs-p{font-size: 19px;line-height: 100px;color: #f39800;text-align: center;border-top: 1px solid #999;
+}
+
+@media screen and (max-width:960px) {
+
+}
+@media screen and (min-width:770px) and (max-width:960px) {
+}
+@media screen and (max-width:770px) {
+    .pz-contents{width: 100%;}
+    .fs-wrap{width: 100%;}
+    .fs-wrap>img{width: 100%;}
+
+    /*标题*/
+    .pz-title{margin-bottom: 15px;}
+    .pz-title>h3{font-size: 18px;line-height: 21px;
+    }
+    .pz-title>img{width: 14px;
+    }
+    /*标题*/
+    .pz-title2{margin-bottom: 15px;}
+    .pz-title2>h3{font-size: 18px;line-height: 21px;
+    }
+    .pz-title2>img{width: 14px;
+    }
+    /*产品生态*/
+    .prodect-zoology,.fs-wrap{padding: 0 15px 20px;box-sizing: border-box;}
+    /*服务流程*/
+    .flow-serve{padding-top: 20px;}
+
+    /*canvas*/
+    #canvas{display: none;}
+    #canvas2{display: block;}
+    .pz-contents {height: 446px;padding-top: 0;}
+    .zoology-circle {width: 375px;height: 330px;margin: 0 auto;}
+    .zoology-circle>a>img{width: 100px;}
+
+    .zoology-infos>h3{font-size: 18px;margin-bottom: 11px;}
+    .zoology-infos>p{font-size: 12px;}
+}
+
+@media screen and (min-width:770px){#canvas{display: block;}#canvas2{display: none;}}
